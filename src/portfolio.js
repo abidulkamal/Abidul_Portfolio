@@ -64,7 +64,7 @@ const socialMediaLinks = [
 ];
 
 const skills = {
-  data: [
+  /*[
     {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
@@ -288,7 +288,8 @@ const skills = {
         },
       ],
     },
-  ],
+  ],*/
+  data: [],
 };
 
 // Education Page
@@ -332,7 +333,8 @@ const competitiveSites = {
       style: {
         color: "#F28C28",
       },
-      profileLink: "https://www.codingninjas.com/codestudio/profile/34a33414-da35-4b62-ab67-1507226c6539",
+      profileLink:
+        "https://www.codingninjas.com/codestudio/profile/34a33414-da35-4b62-ab67-1507226c6539",
     },
   ],
 };
@@ -360,7 +362,8 @@ const certifications = {
   certifications: [
     {
       title: "Machine Learning A-Z™: Python & R in Data Science [2022]",
-      subtitle: "- Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
+      subtitle:
+        "- Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
       logo_path: "Udemy_logo.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-1d665a10-da56-4510-8f43-3a4e3a1095f8/",
@@ -371,8 +374,7 @@ const certifications = {
       title: "Machine Learning & Deep Learning in Python & R",
       subtitle: "- Start-Tech Academy",
       logo_path: "Udemy_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "deeplearning.ai",
       color_code: "#EADDCA",
     },
@@ -483,8 +485,7 @@ const experience = {
         {
           title: "KPMG Intern",
           company: "KPMG Assurance and Consulting Services LLP.",
-          company_url:
-            "https://home.kpmg/in/en/home.html",
+          company_url: "https://home.kpmg/in/en/home.html",
           logo_path: "KPMG-Logo.jpg",
           duration: "Jan 2022 - July 2022",
           location: "Gurugram,India",
@@ -520,7 +521,8 @@ const experience = {
           color: "#D83B01",
         },
         {
-          title: "Audit-Automation Tool (Initiative Built for the KPMG network)",
+          title:
+            "Audit-Automation Tool (Initiative Built for the KPMG network)",
           company: "KPMG Internal Project",
           company_url: "https://home.kpmg/in/en/home.html",
           logo_path: "KPMG-Logo.jpg",
@@ -562,8 +564,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "61, Hukam Singh Road, Shivala Colony, Amritsar, Punjab 143001",
+    subtitle: "61, Hukam Singh Road, Shivala Colony, Amritsar, Punjab 143001",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/arpqmqtjJspg825g8",
   },
