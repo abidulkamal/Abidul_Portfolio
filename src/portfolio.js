@@ -7,21 +7,21 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Kritagya's Portfolio",
+  title: "Abid's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Kritagya Kumra Portfolio",
+    title: "Abid-Ul Kamal Portfolio",
     type: "website",
-    url: "https://beautiful-stroopwafel-1722a5.netlify.app/#/",
+    url: "https://abid.github.io/#/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Kritagya Kumra",
-  logo_name: "KritagyaKumra",
-  nickname: "Kritagya-web",
+  title: "Abid-Ul Kamal",
+  logo_name: "AbidUlKamal",
+  nickname: "Abid",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -33,31 +33,31 @@ const greeting = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Kritagya-web",
+    link: "https://github.com/abidulkamal",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/kritagya-kumra-bba9b41b6/",
+    link: "https://www.linkedin.com/in/abidulkamal/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
-    link: "mailto:kritagyakumra@gmail.com",
+    link: "mailto:abidulkamal9@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/kritagya.kumra",
+    link: "https://www.facebook.com/abidulkamal",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/kritagyakumra/",
+    link: "https://www.instagram.com/abid_ul_kamal/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -294,7 +294,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
+  competitiveSites: /*[
     {
       siteName: "Leetcode",
       iconifyClassname: "simple-icons:leetcode",
@@ -336,19 +336,47 @@ const competitiveSites = {
       profileLink:
         "https://www.codingninjas.com/codestudio/profile/34a33414-da35-4b62-ab67-1507226c6539",
     },
-  ],
+  ]*/ [],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Guru Nanak Dev University Main Campus, Amritsar",
-      subtitle: "B.Tech. in Computer Science & Engineering",
-      logo_path: "gndu_logo.png",
-      alt_name: "GNDU Main Campus, Amritsar",
-      duration: "2018 - 2022",
+      title: "Bangladesh University of Engineering and Technology",
+      subtitle: "Bachelor of Science in Industrial & Production Engineering",
+      logo_path: "buet_logo.png",
+      alt_name: "buet logo",
+      duration: "2018 - 2023",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ I have studied basic CAD software e.g. SolidWorks, AutoCAD, Catia and Analysis software like Ansys and Matlab.",
+        "⚡ Apart from this, I have done courses on Machine Learning, Data Science, C/C++, Python, Java, Reactjs and Full Stack Development.",
+        "⚡ I have created projects in different fields to master the fundamentals of the respective domains and have tried to master the concepts through their basics.",
+        "⚡ I was known for my curiosity during my entire college period and have performed very well in every subject of my academic career as a CSE student.",
+      ],
+      website_link: "https://online.gndu.ac.in/",
+    },
+    {
+      title: "Chittagong College, Chattogram",
+      subtitle: "Higher Secondary Certificate",
+      logo_path: "buet_logo.png",
+      alt_name: "buet logo",
+      duration: "2015 - 2017",
+      descriptions: [
+        "⚡ I have studied basic CAD software e.g. SolidWorks, AutoCAD, Catia and Analysis software like Ansys and Matlab.",
+        "⚡ Apart from this, I have done courses on Machine Learning, Data Science, C/C++, Python, Java, Reactjs and Full Stack Development.",
+        "⚡ I have created projects in different fields to master the fundamentals of the respective domains and have tried to master the concepts through their basics.",
+        "⚡ I was known for my curiosity during my entire college period and have performed very well in every subject of my academic career as a CSE student.",
+      ],
+      website_link: "https://online.gndu.ac.in/",
+    },
+    {
+      title: "Government Muslim High School, Chattogram",
+      subtitle: "Secondary School Certificate",
+      logo_path: "buet_logo.png",
+      alt_name: "buet logo",
+      duration: "2015 - 2017",
+      descriptions: [
+        "⚡ I have studied basic CAD software e.g. SolidWorks, AutoCAD, Catia and Analysis software like Ansys and Matlab.",
         "⚡ Apart from this, I have done courses on Machine Learning, Data Science, C/C++, Python, Java, Reactjs and Full Stack Development.",
         "⚡ I have created projects in different fields to master the fundamentals of the respective domains and have tried to master the concepts through their basics.",
         "⚡ I was known for my curiosity during my entire college period and have performed very well in every subject of my academic career as a CSE student.",
@@ -361,111 +389,142 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning A-Z™: Python & R in Data Science [2022]",
-      subtitle:
-        "- Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
-      logo_path: "Udemy_logo.png",
+      title: "CTL.SC0x: Supply Chain Analytics [2020]",
+      subtitle: " MITx MicroMasters Program in Supply Chain Management",
+      logo_path: "mit.ico",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-1d665a10-da56-4510-8f43-3a4e3a1095f8/",
-      alt_name: "Machine Learning",
-      color_code: "#E5AA70",
+        "https://courses.edx.org/certificates/fd6849fb81b64448abb35a901df29292",
+      alt_name: "Supply Chain Analytics",
+      color_code: "#fafafa",
     },
     {
-      title: "Machine Learning & Deep Learning in Python & R",
-      subtitle: "- Start-Tech Academy",
-      logo_path: "Udemy_logo.png",
-      certificate_link: "",
-      alt_name: "deeplearning.ai",
-      color_code: "#EADDCA",
-    },
-    {
-      title: "React 17",
-      subtitle: "- Sameer Buna",
-      logo_path: "Pluralsight_logo.jpg",
+      title: "2.961.1x: Management in Engineering: Accounting and Planning",
+      subtitle: "MITx's Principles of Manufacturing",
+      logo_path: "mit.ico",
       certificate_link:
-        "https://drive.google.com/file/d/1CBTGevGlv1tlHv67G1QbB-eZ-OdLnVG-/view?usp=sharing",
-      alt_name: "React",
-      color_code: "#000",
+        "https://courses.edx.org/certificates/6126fe65fc2c4b3f9a4c7acf43363ca5",
+      alt_name: "Management in Engineering: Accounting and Planning",
+      color_code: "#f7f9ff",
     },
+
     {
-      title: "Unleashing Data Science and AI",
-      subtitle: "- Bharati Vidyapeeth University College Of Engineering, Pune",
-      logo_path: "bvicam_logo.png",
+      title: "Data Analysis with Python",
+      subtitle: "IBM Data Science Professional Certificate",
+      logo_path: "ibm_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1sLlCOsVFL38w2gOpWpr3LABJke_oHs3x/view?usp=sharing",
-      alt_name: "BVICAM",
+        "https://www.credly.com/badges/a546b67a-893c-4729-b6d1-3314cf21965d/linked_in_profile",
+      alt_name: "Oraclibme",
       color_code: "#FFF",
     },
     {
-      title: "Oracle Database: Introduction to SQL",
-      subtitle: "- Oracle University",
-      logo_path: "Oracle_Logo_1.png",
+      title: "Data Visualization with Python",
+      subtitle: "IBM Data Science Professional Certificate",
+      logo_path: "ibm_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1DXFVhBlTTn6tx5YiQAM2bKqx7wj-hk8X/view?usp=sharing",
-      alt_name: "Oracle",
-      color_code: "#DE3163",
-    },
-    {
-      title: "Programming in Java",
-      subtitle: "- NIIT Amritsar",
-      logo_path: "niit_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/17YzW5qo2Zbit4vsoqg3XzB3Hu9qvZ9_0/view?usp=sharing",
-      alt_name: "JAVA",
+        "https://www.credly.com/badges/d18d53c3-dafe-4650-b832-0bbcda95a837/linked_in_profile",
+      alt_name: "bm",
       color_code: "#FFF",
     },
+
     {
-      title: "Building Websites with HTML, CSS, and JavaScript",
-      subtitle: "- Craig Shoemaker",
-      logo_path: "Pluralsight_logo.jpg",
-      certificate_link:
-        "https://drive.google.com/file/d/1co529E0182WYglbvMnNuyHCHhu2_5wUr/view?usp=sharing",
-      alt_name: "Website Building",
-      color_code: "#000",
-    },
-    {
-      title: "Data Structures Workshop",
-      subtitle: "- Coding Blocks",
-      logo_path: "coding-blocks_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1hBZMo9oc7C06ylINAbmxPTuGYBCqgrfv/view?usp=sharing",
+      title: "Python (Basic)",
+      subtitle: "HackerRank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com/certificates/41ed92260e9f",
       alt_name: "Data Structures",
       color_code: "#FFF",
     },
     {
-      title: "Getting Started with Programming in Java 11",
-      subtitle: "- Jim Wilson",
-      logo_path: "Pluralsight_logo.jpg",
+      title: "Supply Chain Management",
+      subtitle: "Rutgers: The State University of New Jersey",
+      logo_path: "coursera_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1jZNt4tFgBd0PI6b1yKhTKrBZP-twfOCy/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000",
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/8XSVN5MXCUM2",
+      alt_name: "SCM",
+      color_code: "#89CFF0",
     },
     {
-      title: "Certification in Python 3",
-      subtitle: "- VMM Education",
-      logo_path: "vmm-education_logo.jpg",
+      title: "Introduction to Data Science in Python",
+      subtitle: "University of Michigan",
+      logo_path: "coursera_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1Txhs4Nmp7VhwAL0ZesKvg7I8ZZotyF4_/view?usp=sharing",
+        "https://www.coursera.org/account/accomplishments/verify/DBETFN9H9FZB?utm_campaign=sharebutton_course&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link&utm_user=91a8d63def4d6b5327d443c197a07080f379ed3f",
+      alt_name: "Coursera",
+      color_code: "#89CFF0",
+    },
+
+    {
+      title: "Python Data Structures",
+      subtitle: "University of Michigan",
+      logo_path: "coursera_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/9767E6GYLU5K?utm_source=link&utm_campaign=copybutton_certificate",
+      alt_name: "Python 3",
+      color_code: "#89CFF0",
+    },
+    {
+      title: "Programming for Everybody (Getting Started with Python)",
+      subtitle: "University of Michigan",
+      logo_path: "coursera_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/KQCT8TY7PXAC?utm_campaign=copybutton_certificate&utm_content=cert_image&utm_medium=certificate&utm_source=link",
+      alt_name: "Python 3",
+      color_code: "#89CFF0",
+    },
+    {
+      title: "Introduction to Tableau",
+      subtitle: "Datacamp",
+      logo_path: "datacamp.jpg",
+      certificate_link:
+        "https://www.datacamp.com/statement-of-accomplishment/course/ad28a76e2a5d8470c67a37d5160bf241e8ba4516",
+      alt_name: "BVICAM",
+      color_code: "#FFF",
+    },
+    {
+      title: "Exploratory Data Analysis in Python",
+      subtitle: "Datacamp",
+      logo_path: "datacamp.jpg",
+      certificate_link:
+        "https://www.datacamp.com/statement-of-accomplishment/course/74427f9c7d35ec929129d5314937cbd89c934447",
+      alt_name: "Python",
+      color_code: "#FFF",
+    },
+    {
+      title: "Supply Chain Analytics in Python",
+      subtitle: "Datacamp",
+      logo_path: "datacamp.jpg",
+      certificate_link:
+        "https://www.datacamp.com/statement-of-accomplishment/course/9a2a8d87be8c0c46aa847cf20ba4bfbd870a95b4",
       alt_name: "Python 3",
       color_code: "#FFF",
     },
     {
-      title: "Learn To Create AI Assistant (JARVIS) With Python",
-      subtitle: "- Arbaz Khan",
-      logo_path: "Udemy_logo.png",
+      title: "Intermediate Python",
+      subtitle: "Datacamp",
+      logo_path: "datacamp.jpg",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-5f783ff9-d6e4-42d0-bbbc-0131e802560d/",
-      alt_name: "AI",
-      color_code: "#89CFF0",
+        "https://www.datacamp.com/statement-of-accomplishment/course/48e9e8aaf173d7ee3c463b93b3b4efe32d8a1346",
+      alt_name: "Python 3",
+      color_code: "#FFF",
     },
     {
-      title: "Certification in C and C++",
-      subtitle: "- VMM Education",
-      logo_path: "vmm-education_logo.jpg",
+      title: "Statistical Thinking in Python (Part 1)",
+      subtitle: "Datacamp",
+      logo_path: "datacamp.jpg",
       certificate_link:
-        "https://drive.google.com/file/d/1soLzGtwCKnn2OBnM29NuT-6-My0YMjp5/view?usp=sharing",
-      alt_name: "C/C++",
+        "https://www.datacamp.com/statement-of-accomplishment/course/26096781c7e00cd0ace63ed175cc99a383f1a935",
+      alt_name: "Python 3",
+      color_code: "#FFF",
+    },
+
+    {
+      title: "The Bronze Standard",
+      subtitle:
+        "The Duke of Edinburgh's International Award Foundation - Bangladesh",
+      logo_path: "duke.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1aAHN2DSkg9EKZsJhZSSDkfnwahpIuonf/view",
+      alt_name: "Python 3",
       color_code: "#FFF",
     },
   ],
