@@ -347,6 +347,7 @@ const degrees = {
       logo_path: "buet_logo.png",
       alt_name: "buet logo",
       duration: "2018 - 2023",
+      gpa: "3.61 out of 4",
       descriptions: [
         "⚡ I have studied basic CAD(Computer Aided Design) software e.g. SolidWorks, AutoCAD, Catia and Analysis software like Ansys and Matlab.",
         "⚡ During this time, I have done courses on Optimization, Supply Chain, CAD/CAM(Computer Aided Design/Computer Aided Manufacturing), Ergonomics, Project Management, Environment Management.",
@@ -526,21 +527,21 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Being an Undergrad student of Industrial and Production Engineering, I had the opportunity  to work on different individual and Team projects such as SolidWorks Project, Project Design Sessional, Catia Project.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Internships",
       experiences: [
         {
-          title: "KPMG Intern",
-          company: "KPMG Assurance and Consulting Services LLP.",
-          company_url: "https://home.kpmg/in/en/home.html",
-          logo_path: "KPMG-Logo.jpg",
-          duration: "Jan 2022 - July 2022",
-          location: "Gurugram,India",
+          title: "Coats Final Winding Intern",
+          company: "Coats Bangladesh Ltd",
+          company_url: "https://www.coats.com/en",
+          logo_path: "coats.png",
+          duration: "April 2022 - May 2022",
+          location: "Chattogram, Bangladesh",
           description:
-            "KPMG in India is one of the leading providers of risk, financial and business advisory, tax and regulatory services, and internal audits. The Leadership Team is the principal governing body of KPMG's operations in India. During my internship, I was part of 3 different projects in which I contributed in the field of UI-UX Design, Data Analytics, and Frond-end and Back-end respectively.",
+            "Coats Group is a British multinational company specializing in the manufacture and distribution of thread, yarn, and industrial textile products. With a presence in over 50 countries, Coats is known for its innovative and sustainable solutions in the textile industry. During my internship, I was part of 3 different projects in which I contributed in the field of UI-UX Design, Data Analytics, and Frond-end and Back-end respectively.",
           color: "#0071C5",
         },
       ],
@@ -601,26 +602,26 @@ const publicationsHeader = {};
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_kritagya.png",
+    profile_image_path: "abid.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React and Cloud Computing or Cloud infrastructure.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with SolidWorks, Arena, Catiya or any of the similar software. I can also help you with Optimization program.",
   },
-  blogSection: {
+  blogSection: /* {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character and would create a blog website very shortly.",
     link: "#",
     avatar_image_path: "blogs_image.svg",
-  },
+  }*/ {},
   addressSection: {
     title: "Address",
-    subtitle: "61, Hukam Singh Road, Shivala Colony, Amritsar, Punjab 143001",
+    subtitle: "Mom's Love, Hazi Rahim Box Lane, Lalbag, Dhaka, Bangladesh",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/arpqmqtjJspg825g8",
+    location_map_link: "https://goo.gl/maps/evaKeoXmkuWRnKd76",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 6284470690",
+    subtitle: "+880 1850375896",
   },
 };
 
