@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1XvmOASqt3_poL8iRU6-jJWOTzHN1IUHn/view?usp=share_link",
+    "https://drive.google.com/open?id=11C93sT_Pw1hS_d6BLV7Zd8ht1UltI4L6&usp=drive_fs",
   portfolio_repository:
     "https://github.com/Kritagya-web/Kritagya_React_Portfolio",
 };
@@ -346,8 +346,8 @@ const degrees = {
       subtitle: "Bachelor of Science in Industrial & Production Engineering",
       logo_path: "buet_logo.png",
       alt_name: "buet logo",
-      duration: "2018 - 2023",
-      gpa: "3.61 out of 4",
+      duration: "March 2018 - May 2023",
+      gpa: "3.62 out of 4",
       descriptions: [
         "⚡ I have studied basic CAD(Computer Aided Design) software e.g. SolidWorks, AutoCAD, Catia and Analysis software like Ansys and Matlab.",
         "⚡ During this time, I have done courses on Optimization, Supply Chain, CAD/CAM(Computer Aided Design/Computer Aided Manufacturing), Ergonomics, Project Management, Environment Management.",
@@ -362,7 +362,7 @@ const degrees = {
       subtitle: "Higher Secondary Certificate",
       logo_path: "cc.png",
       alt_name: "buet logo",
-      duration: "2015 - 2017",
+      duration: "2016-2017",
       descriptions: [],
       website_link: "https://ctgcollege.gov.bd/",
     },
@@ -371,7 +371,7 @@ const degrees = {
       subtitle: "Secondary School Certificate and Junior School Certificate",
       logo_path: "gmhs.png",
       alt_name: "buet logo",
-      duration: "2015 - 2017",
+      duration: "2015",
       descriptions: [],
       website_link: "https://gmhsctg.tsmts.com",
     },
@@ -527,9 +527,31 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "Being an Undergrad student of Industrial and Production Engineering, I had the opportunity  to work on different individual and Team projects such as SolidWorks Project, Project Design Sessional, Catia Project.",
+    "From CAD modeling in SolidWorks to real-world procurement operations — my journey started with hands-on projects like Product Design Sessional and CATIA-based modeling. Since then, I’ve expanded into professional roles, contributing to strategic sourcing, logistics management, and cross-functional project leadership in manufacturing and supply chain domains.",
   header_image_path: "experience.svg",
   sections: [
+    {
+      title: "Job Experiences",
+      experiences: [
+        {
+          title: "Midas Safety Bangladesh Limited",
+          company: "Midas Safety Bangladesh Limited",
+          company_url: "https://www.midassafety.com/",
+          logo_path: "MSBD.png",
+          duration: "June 2023 - August 2024",
+          location: "Chattogram, Bangladesh",
+          description: [
+            "- Strategic Procurement: Managed procurement of over $3 million in raw materials from China, Malaysia, Taiwan, and Vietnam.",
+            "- Logistics Management: Handled import logistics, including commercial documentation and coordination with international freight forwarders and local CNF agents.",
+            "- SOP Development: Created Standard Operating Procedures (SOP) for local procurement, enhancing operational efficiency.",
+            "- Local Sourcing: Sourced local suppliers for spare parts, contributing to a streamlined procurement process.",
+            "- CSR Project Management: Led a CSR project to refurbish a school bus with enhanced safety features, collaborating with cross-functional teams.",
+            "- Project Leadership: Directed a $13,000 procurement project for plant capacity enhancement, achieving a 0.25-year payback period and ensuring timely delivery of materials.",
+          ].join("\n"),
+          color: "#0071C5",
+        },
+      ],
+    },
     {
       title: "Internships",
       experiences: [
@@ -568,7 +590,7 @@ const experience = {
           duration: "April 2022 - May 2022",
           location: "Chattogram, Bangladesh",
           description:
-            "My second project was about improving the scenario of bobbin box recycling. Their existing plan was to use two different bins for keeping the bobbin with thread and bobbin s=without s=thread separate. But the distance between the bins actually discouraged the operators to keep the correct bobbin in correct bin. I designed two alternate design for keeping the two types of bobbin in the same bin by separating the bin in the mid section and color coding the bin for better lucidity",
+            "My second project was about improving the scenario of bobbin box recycling. Their existing plan was to use two different bins for keeping the bobbin with thread and bobbin without thread separate. But the distance between the bins actually discouraged the operators to keep the correct bobbin in correct bin. I designed two alternate design for keeping the two types of bobbin in the same bin by separating the bin in the mid section and color coding the bin for better lucidity",
           color: "#D83B01",
         },
         {
@@ -614,9 +636,9 @@ const contactPageData = {
   }*/ {},
   addressSection: {
     title: "Address",
-    subtitle: "Mom's Love, Hazi Rahim Box Lane, Lalbag, Dhaka, Bangladesh",
+    subtitle: "Kajir Deuri, Chattogram, Bangladesh",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/evaKeoXmkuWRnKd76",
+    location_map_link: "https://maps.app.goo.gl/3fN4DYNaWBZ2jVFD9",
   },
   phoneSection: {
     title: "Phone Number",

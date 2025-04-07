@@ -3,12 +3,33 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Oblivion Bubble Copter",
-      "createdAt": "September 17th, 2019",
+      "createdAt": "September, 2019",
       "url": "https://grabcad.com/library/oblivion-bubble-copter-1",
-      "description": "This project was fully done on SolidWorks 2017. This was my undergrad project for Sessional course, IPE 204: ",
+      "description": "Implemented various CAD techniques, including sketching, parametric modeling, and assembly.\nCreated detailed engineering drawings of the Bubble Copter, including ssembly, exploded, and section views. ",
       "isFork": false,
       "languages": [
-        {}
+        {
+          "name": "SolidWorks",
+          "percentage": 100
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzU=",
+      "name": "Hybrid Crop Cutter and Seed Planter",
+      "createdAt": "January, 2023",
+      "url": "https://grabcad.com/library/hybrid-crop-cutter-and-seed-planter-1",
+      "description": "Designed a hybrid machine to reduce labor and equipment needs, promoting sustainable farming through efficient multifunctionality.\nDeveloped a modular design to enhance durability and minimize waste.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "SolidWorks",
+          "percentage": 75
+        },
+        {
+          "name": "Catia",
+          "percentage": 25
+        }
       ]
     }
   ]
