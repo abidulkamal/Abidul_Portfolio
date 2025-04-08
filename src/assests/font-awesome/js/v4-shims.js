@@ -9,8 +9,6 @@
     ? define(factory)
     : (global["fontawesome-free-shims"] = factory());
 })(this, function () {
-  "use strict";
-
   var _WINDOW = {};
   var _DOCUMENT = {};
 

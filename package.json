@@ -8,6 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },

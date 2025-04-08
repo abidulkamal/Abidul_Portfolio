@@ -9,8 +9,6 @@
     ? define(["exports"], factory)
     : factory((global["fontawesome-free-conflict-detection"] = {}));
 })(this, function (exports) {
-  "use strict";
-
   function _typeof(obj) {
     if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
       _typeof = function (obj) {
