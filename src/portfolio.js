@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Abid's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always strives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Abid-Ul Kamal Portfolio",
     type: "website",
@@ -23,11 +23,11 @@ const greeting = {
   logo_name: "AbidUlKamal",
   nickname: "Abid",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always strives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=11C93sT_Pw1hS_d6BLV7Zd8ht1UltI4L6&usp=drive_fs",
+    "https://drive.google.com/file/d/16xZezQXV-xkwVcL4mG0knYhXCgED_U8U/view?usp=sharing",
   portfolio_repository:
-    "https://github.com/Kritagya-web/Kritagya_React_Portfolio",
+    "https://github.com/abidulkamal/Abidul_Portfolio",
 };
 
 const socialMediaLinks = [
